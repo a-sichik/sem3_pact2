@@ -1,0 +1,137 @@
+footer{
+    background-color: #50735F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.form_overhead{
+    font-family: GT Cinetype Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    max-width: 280px;
+    margin-top: 10%;
+    opacity: 80%;
+}
+footer{
+    color: white;
+    .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20%;
+}
+input[type="email"]{
+    background-color: #50735F;
+    border: 1px solid white;
+    padding-left: 10px;
+    width: 449px;
+    height: 54px;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+input[type="email"]:focus{
+    outline: none;
+}
+input[type="email"]::placeholder{
+    font-family: GT Cinetype Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    opacity: 50%;
+}
+}
+.transperent .TreeHouse{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.imin{
+    background-color: #C58A46;
+    width: 131px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.footer_form{
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+.footer_form img{
+    margin-bottom: 2%;
+}
+.footer_bottom{
+    font-family: GT Cinetype Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+    opacity: 80%;
+}
+.footer_links{
+    display: flex;
+    justify-content: center;
+}
+.footer_collom{
+    margin-right: 3%;
+}
+.footer_collom_title{
+    min-width: 180px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20%;
+}
+.footer_collom p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10%;
+    white-space: nowrap;
+}
+.footer_collom p:hover{
+    color: #C58A46;
+    cursor: pointer;
+}
+.footer_collom a img{
+    margin-top: 10%;
+}
+
+.footer_collom a{
+    max-width: 77px;
+}
+
+.leaf_4{
+    position: absolute;
+    bottom: 0;
+    left: 22%;
+}
+.leaf_5{
+    position: absolute;
+    right: 0%;
+}
+.up{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="try.css">
+    <link rel="stylesheet" href="FA/css/font-awesome.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="successAlert" class="alert alert-success alert-dismissible fade  text-white border-0" role="alert" style="display: none;">
+        Регистрация прошла успешно!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <nav class="navbar nav-sm bg-body-tertiary bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="pic/treehouse_logo_def-01 1.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-sliders text-white" aria-hidden="true"></i>
+          </span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header bg-success">
+            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">TreeHouse</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-success ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                  <a href="new.html" style="white-space: nowrap;">Shop +</a>
+                </li>
+                <li class="nav-item">
+                  <a href="our_team.html" style="white-space: nowrap;" >Our team</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" style="white-space: nowrap;">Our impact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="form.html" style="white-space: nowrap;">Gift card</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" style="white-space: nowrap;">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a href="journal.html" style="white-space: nowrap;">Journal</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" style="white-space: nowrap;">Contacts</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search" style="align-items: center;">
+              <i class="fa fa-search text-white" aria-hidden="true"></i>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background-color: transparent;border: none;max-width: 200px;">
+          </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+        <div class="sale">
+            <span>Get 25% off buying the entire capsule collection | Subscribe to us and get 15% off your first order</span>
+        </div>
+        <div class="content_header">
+            <nav class="navbar nav-lg navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="pic/treehouse_logo_def-01 1.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" style="z-index: 3;align-items: center;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon mt-2" > <i class="fa fa-sliders" aria-hidden="true"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: auto; margin-right: auto;">
+                      <li class="nav-item">
+                        <a href="new.html">Shop +</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="our_team.html">Our team</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="">Our impact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="form.html">Gift card</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="journal.html">Journal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="">Contacts</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search" style="align-items: center;">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background-color: transparent;border: none;max-width: 200px;">
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            <div class="main_text">
+                <h3 style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Treehouse</h3>
+                <h1>Little Clothes.</h1>
+                <h2>Big Impact.</h2>
+                <h4 style="font-family: Work Sans, sans-serif;">High-quality children's clothing, crafted with care from sustainable materials that are kind to the planet. These timeless styles are the perfect companions for your little adventurer, wherever their imagination takes them. </h4>
+                <div class="buy_botton">
+                    <button class="shop_botton" data-bs-toggle="modal" data-bs-target="#exampleModal"><span style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Shop now</span></button>
+                    <div class="arrow"><img src="images/arrow.png" alt="arrow"></div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="additional" style="font-family: Work Sans, sans-serif;">* Buy good, do good</div>
+                <div class="scroll text-white"><a class="text-white" href="#boy" style="font-family: Work Sans, sans-serif;">Scroll</a>
+                    <img src="images/arrow.png" alt="arrow">
+                </div>
+            </div>
+        </div>
+        <div class="first">
+            <div class="first_images">
+                <img src="images/leaf 1.png" class="leaf_draw" alt="leaf">
+                <img src="images/paporotnik.png" alt="paporotnik" class="paporotnik">
+                <img src="images/kid.png" alt="kid" class="kid">
+                <img src="images/TreeHouse.png" alt="TreeHouse" class="TreeHouse">
+            </div>
+            <div class="first_text">
+                <div class="first_overhead" style="font-family: Work Sans, sans-serif;">WELCOME</div>
+                <div class="first_title">Hi, meet 
+                    TreeHouse.</div>
+                <div class="first_text_main" style="font-family: Work Sans, sans-serif;">Mindfully crafted gender-neutral children's clothing focused on your little one and designed with great care for our planet and the people on it.</div>
+                <div class="buy_botton">
+                    <button class="first_button" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip"
+                    data-bs-title="You can download full version on link below"><span style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Read more</span></button>
+                    <div class="arrow_first"><img src="images/green_arrow.png" alt="arrow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="second_text">
+                <div class="first_overhead" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Our care </div>
+                <div class="first_title">We prioritize your peace of mind.</div>
+                <div class="pre_title"><span style="font-family: Work Sans, sans-serif; text-transform: uppercase;">1</span>saving your time </div>
+                <div class="second_main_text" style="font-family: Work Sans, sans-serif;">Each item in our collection seamlessly matches the next. Invest in a few pieces or the entire line for a season's worth of clothing options, designed to last and be loved by others once your little one has grown.
+                </div>
+                <div class="pre_title" ><span>2</span>ethical manufacturing </div>
+                <div class="second_main_text" style="font-family: Work Sans, sans-serif;">Our commitment to ethical production isn’t just rhetoric. We place the welfare of workers and the environment at the forefront of our decision making. Always.
+                </div>
+            </div>
+            <div class="second_images">
+                <img src="images/family.png" alt="family">
+                <img src="images/salute.png" class="salute" alt="salute">
+            </div>
+        </div>
+        <div class="third">
+            <div class="third_images">
+                <img src="images/doll.png" class="doll" alt="doll">
+                <img src="images/arms.png" alt="arms" class="arms">
+            </div>
+            <div class="second_text">
+                <div class="pre_title"><span style="font-family: Work Sans, sans-serif; text-transform: uppercase;">3</span>The highest quality </div>
+                <div class="second_main_text" style="font-family: Work Sans, sans-serif;">We use only he highest quality sustainable fabrics, including <a href="#" style="font-family: Work Sans, sans-serif;">GOTS-certified</a> organic cotton and <a href="#" style="font-family: Work Sans, sans-serif;">OEKO-TEX    STANDARD 100</a> linen, to ensure your child's delicate skin is cared for.
+                </div>
+                <div class="pre_title"><span style="font-family: Work Sans, sans-serif; text-transform: uppercase;">4</span>womAn owned brand </div>
+                <div class="second_main_text"style="font-family: Work Sans, sans-serif;">When you choose us, you're supporting an ethical and sustainable small business owned by a woman. We don't just talk the talk, we walk the walk.
+                </div>
+            </div>
+        </div>
+        
+        <div class="selector">
+            <div class="selector_overhead" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">let’s make shopping</div>
+            <div class="selector_title">What are you looking for?</div>
+            <div class="selector_img">
+                <img src="images/tops category.png" alt="category" class="category">
+                <img src="images/leaf 2.png" alt="leaf" class="leaf_2">
+            </div>
+            <ul class="nav nav-pills mb-3 justify-content-center gap-5 " style="margin-top: 50px;" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <div class="selector_button" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                        <span class="text_hover" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Tops</span>
+                        <img src="images/hover.png" alt="hover" class="hidden-image">
+                    </div>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <div class="selector_button" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                        <span class="text_hover" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Bottoms</span>
+                        <img src="images/hover.png" alt="hover" class="hidden-image_2">
+                    </div>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <div class="selector_button" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                        <span class="text_hover" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Roompers</span>
+                        <img src="images/hover.png" alt="hover" class="hidden-image_2">
+                    </div>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <div class="selector_button" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                        <span class="text_hover" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">hats</span>
+                        <img src="images/hover.png" alt="hover" class="hidden-image">
+                    </div>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <div class="selector_button" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                        <span class="text_hover" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">all collection</span>
+                        <img src="images/hover.png" alt="hover" class="hidden-image_3">
+                    </div>
+                </li>
+              </ul>
+              <div class="tab-content text-center" id="pills-tabContent">
+                <div class="tab-pane fade show active rounded-5"  id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                  <div class="stars mb-1 mt-2">
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                  </div>
+                  <div class="mx-auto" style="font-weight: 400;color: #636363;max-width: 440px;justify-content: center;padding: 25px;border-radius: 10px;">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, enim quam! Incidunt qui repellat consectetur veritatis perspiciatis illo voluptatibus cum.
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                  <div class="stars mb-1 mt-2">
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #bebebe;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #bebebe;" aria-hidden="true"></i>
+                  </div>
+                  <div class="mx-auto" style="font-weight: 400;color: #636363;max-width: 440px;justify-content: center;padding: 25px;border-radius: 10px;">
+                    “ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam cupiditate aliquid laborum blanditiis temporibus consequatur. Maxime exercitationem blanditiis est, debitis molestias corrupti porro id sapiente, in, iste illum veritatis error! ”
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                  <div class="stars mb-1 mt-2">
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #F59E0B;" aria-hidden="true"></i>
+                    <i class="fa fa-star fs-3" style="color: #bebebe;" aria-hidden="true"></i>
+                  </div>
+                  <div class="mx-auto" style="font-weight: 400;color: #636363;max-width: 440px;justify-content: center;padding: 25px;border-radius: 10px;">
+                    “ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, modi, iure dolorum sed similique temporibus, obcaecati aspernatur praesentium cumque consequatur voluptatibus molestiae. Veniam, aperiam necessitatibus. Ipsa dignissimos ut quisquam aliquid mollitia distinctio at illo, cum, expedita, rem consequuntur. Recusandae, nam. ”
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+              </div>
+        </div>
+        <div class="kids">  
+            <div class="kids_grey">
+                <div class="grey_container">
+                    <img src="images/makasins.png" alt="makasins" class="makasins">
+                    <div class="kids_title">25% off</div>
+                    <div class="kids_text" style="font-family: Work Sans, sans-serif;">Save yourself the headache of endless shopping with our Capsule Collection. Buy all 14 pieces, save 25%, and enjoy endless outfit options, dressing your littles in no time!</div>
+                    <div class="buy_botton">
+                        <button class="shop_botton"><span style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Shop now</span></button>
+                        <div class="arrow"><img src="images/arrow.png" alt="arrow"></div>
+                    </div>
+                    <img src="images/cloth.png" alt="cloth" class="cloth">
+                </div>
+            </div>
+            <div class="kids_img">
+                <img src="images/kids.png" style="max-width: 700px; max-height: 560px; margin-top: -4px;" alt="kids">
+            </div>
+        </div>
+        <div class="footer_kids">
+            <div class="zvezda">*</div>
+            <div class="kids_img_text" style="font-family: Work Sans, sans-serif;">The entire collection has a gender-neutral style and every item matches perfectly with the next.</div>
+        </div>
+        
+        <div class="goods " style="margin-top: 150px;">
+            <div class="goods_header">
+                <div>
+                    <div class="overhead_goods" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">your perfect match</div>
+                    <div class="goods_title">Shop the look</div>
+                </div>
+                <div class="goods_arrows">
+                    <div class="arrow_left"><img src="images/green_arrow.png" alt="arrow" data-bs-target="#foodCarousel" data-bs-slide="prev"></div>
+                    <div class="arrow_right"><img src="images/brown_arrow.png" alt="arrow" data-bs-target="#foodCarousel" data-bs-slide="next"></div>
+                </div>
+            </div>
+            <div id="foodCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true" style="position: relative;margin-top: 30px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row text-center g-4 justify-content-center">
+                            <div class="col-auto">
+                                <div class="col-auto"><img src="images/look card 1.png" alt=""></div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="col-auto"><img src="images/look card 2.png" alt=""></div>
+                          </div>
+                          <div class="col-auto">
+                            <div class="col-auto"><img src="images/look card 3.png" alt=""></div>
+                        </div>
+                            
+                        </div>
+                    </div>
+              
+                    <div class="carousel-item">
+                      <div class="row text-center g-4 justify-content-center">
+                          <div class="col-auto">
+                            <div class="col-auto"><img src="images/look card 1.png" alt=""></div>
+                          </div>
+                          <div class="col-auto">
+                            <div class="col-auto"><img src="images/look card 2.png" alt=""></div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="col-auto"><img src="images/look card 3.png" alt=""></div>
+                      </div>
+                          
+                      </div>
+                  </div>
+                </div>
+              
+              </div>
+        </div>
+        <div class="transperent">
+            <div class="selector_overhead" style=" margin-top: 100px; font-family: Work Sans, sans-serif; text-transform: uppercase;">you can trust</div>
+            <div class="selector_title">Transparency in every detail</div>
+            <img src="images/TreeHouse.png" alt="TreeHouse" class="TreeHouse">
+            <img src="images/t_shirt.png" alt="t_shirt" class="t_shirt">
+            <div class="lets_play"><img src="images/lets_play.png" alt="lets_play"></div>
+            <div class="buy_botton">
+                <button class="shop_botton"><span style="font-family: Work Sans, sans-serif; text-transform: uppercase;">Shop now</span></button>
+                <div class="arrow"><img src="images/arrow.png" alt="arrow"></div>
+            </div>
+            
+        </div>
+        <footer style="font-family: Work Sans, sans-serif;">
+            <div class="footer_form">
+                <div class="form_overhead" style="font-family: Work Sans, sans-serif;">subscribe to our mailing list and get 15% off your first order</div>
+                <div class="email">
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email">
+                    </form>
+                    <div class="imin" style="font-family: Work Sans, sans-serif; text-transform: uppercase;">I’m in</div>
+                </div>
+            <img src="images/logo.png" alt="logo">
+            <div class="footer_bottom">Tree House 2023 © All Rights reserved</div>
+            </div>
+            <div class="footer_links">
+                <div class="footer_collom">
+                    <div class="footer_collom_title">Sitemap</div>
+                    <div>
+                        <p>Shop</p>
+                        <p>Meet us</p>
+                        <p>Our impact</p>
+                        <p>Gift cards</p>
+                        <p>FAQ</p>
+                        <p>Blog</p>
+                        <p>Contacts</p>
+                    </div>
+                </div>
+                <div class="footer_collom">
+                    <div class="footer_collom_title">Social</div>
+                    <div>
+                        <p>Instagram</p>
+                        <p>Facebook</p>
+                        <p>Pinterest</p>
+                    </div>
+                </div>
+                <div class="footer_collom">
+                    <div class="footer_collom_title">Customer care</div>
+                    <div>
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                        <p>Delivery & return</p>
+                        <p>Track your order</p>
+                        <p>FAQ</p>
+                    </div>
+                </div>
+                <div class="footer_collom">
+                    <div class="footer_collom_title">PAYMENT METHODS</div>
+                    <div class="pay_methods">
+                        <a href="#"><img src="images/paypal.png" alt=""></a>
+                        <a href="#"><img src="images/Mastercard.png" alt=""></a>
+                        <a href="#"><img src="images/visa.png" alt=""></a>
+                        <a href="#"> <img src="images/Google_Pay.png" alt=""></a>
+                        <a href="#"><img src="images/apple-pay.png" alt=""></a>
+                        <a href="#"><img src="images/Afterpay.png" alt=""></a>
+                        <a href="#"><img src="images/ShopPay.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="up"><img src="images/Up.png" alt=""></a>
+        </footer>
+    <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content borer-top border-warning">
+            <div class="modal-body text-center">
+              <div id="checkIcon">
+               <i class="fa fa-envelope-open" aria-hidden="true" alt="Post box 3d image" style="color: #F59E0B;scale: 300%; margin-top: 30px;"></i> 
+              </div>
+              <div class="mt-4 py-2 justify-content-center">
+                <h4 class="h5 text-center fw-bold" style="color:#C58A46;max-width: 500px;" >Don't Miss Any Updates</h4>
+                <p class="px-4 pb-0 mb-1" style="color: #50735F;">Don't worry we will keep your informarion private</p>
+              </div>
+              <div class="p-3">
+                <div class="d-flex justify-content-evenly" style="align-items: center;">
+                  <div class="flex-grow-1 mx-1 mt-0" style="margin-top: 0;align-items: center;">
+                    <input type="email mt-0" placeholder="Enter Email Id" class="form-control rounded-0">
+                  </div>
+                  <div class="flex-grow-1 mx-1">
+                    <button type="button" class="btn btn-success text-white rounded-0 w-100 text-white" style="background-color: #50735F;color: white;" >Subscribe</button>
+                  </div>
+                </div>
+              </div>
+              <a type="button" class="text-black rounded-0 w-100" style="color: #50735F;" data-bs-dismiss="modal"><small style="color: #50735F;">I dont want any updates</small></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+        const toastTrigger = document.getElementById('liveToastBtn')
+      const toastLiveExample = document.getElementById('liveToast')
+      
+      if (toastTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+        toastTrigger.addEventListener('click', () => {
+          toastBootstrap.show()
+        })
+      }
+      if (new URLSearchParams(window.location.search).has('registered')) {
+            var successAlert = document.getElementById('successAlert');
+            successAlert.style.display = 'block';
+            successAlert.classList.add('show'); 
+        
+            setTimeout(function() {
+              successAlert.classList.remove('show');
+              successAlert.style.display = 'none';
+            }, 3000);
+          }
+          window.addEventListener('load', function() {
+        if (localStorage.getItem('registered') === 'true') {
+          showToast("Регистрация прошла успешно!");
+          localStorage.removeItem('registered'); // Удаляем флаг, чтобы toast показался только один раз
+        }
+      });
+    
+      function showToast(message) {
+        const toast = document.createElement('div');
+        toast.innerText = message;
+        toast.style.position = 'fixed';
+        toast.style.bottom = '20px';
+        toast.style.left = '50%';
+        toast.style.transform = 'translateX(-50%)';
+        toast.style.backgroundColor = '#50735F';
+        toast.style.color = '#fff';
+        toast.style.padding = '10px 20px';
+        toast.style.borderRadius = '5px';
+        toast.style.zIndex = '1000';
+        document.body.appendChild(toast);
+        
+        setTimeout(() => {
+          toast.remove();
+        }, 5000); // Убираем toast через 3 секунды
+      }
+      </script>
+</body>
+</html>
